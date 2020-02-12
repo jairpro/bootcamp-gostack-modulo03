@@ -1,2 +1,7 @@
 node_modules
+
+# exclude everything
 tmp/uploads/*
+
+# exception to the rule
+!tmp/uploads/.gitkeep
