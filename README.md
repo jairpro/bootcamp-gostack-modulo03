@@ -19,7 +19,7 @@ Projeto Node.js com:
     
 4 - Aplicar as migrations para o banco de dados pelo comando no terminal da aplicação:
 
-    yarn sequelize db:migration
+    yarn sequelize db:migrate
     
 5 - Para executar a aplicação utilize:
 
