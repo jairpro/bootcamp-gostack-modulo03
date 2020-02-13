@@ -1,4 +1,6 @@
 # Bootcamp Gostack - Modulo 3
+<img height="100px" src="https://repository-images.githubusercontent.com/240039692/27973e80-4dee-11ea-89d7-880bb9842074">
+
 ### Continuando API do Gobarber
 
 ## **Sobre**
@@ -29,7 +31,7 @@ Projeto Node.js com:
 
     yarn dev:debug
   
-### Observações ###
+### Observações
 A porta para essa aplicação é 3337, ela pode ser redefinida no arquivo:
 
     src/server.js
