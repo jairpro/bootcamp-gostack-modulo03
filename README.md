@@ -1,7 +1,10 @@
-# bootcamp-gostack-modulo02
+# Bootcamp Gostack - Modulo 3
+### Continuando API do Gobarber
 
 ## **Sobre**
-Projeto Node.js com cadastro e autenticação de usuários.
+Projeto Node.js com:
+- Cadastro simples e autenticação de usuários;
+- Upload de imagem para avatar associado ao usuário; 
 
 ## **Instalação** 
 1 - Clonar esse repositório em seu computador;
@@ -10,10 +13,27 @@ Projeto Node.js com cadastro e autenticação de usuários.
 
     yarn
     
-3 - Para executar a aplicação utilize:
+3 - Utilizar Postgres com Docker, criar o banco de dados e o usuário e configurar o esquema de conexão no arquivo:
+
+    src/config/database.js
+    
+4 - Aplicar as migrations para o banco de dados pelo comando no terminal da aplicação:
+
+    yarn sequelize db:migration
+    
+5 - Para executar a aplicação utilize:
 
     yarn dev
 
-ou para depurar:
+  ou para depurar:
 
     yarn dev:debug
+  
+### Observações ###
+A porta para essa aplicação é 3337, ela pode ser redefinida no arquivo:
+
+    src/server.js
+
+  Alterar a porta aqui:
+
+    app.listen(3337);
