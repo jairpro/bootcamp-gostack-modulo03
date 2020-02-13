@@ -1,6 +1,7 @@
 import { startOfDay, endOfDay, parseISO } from 'date-fns';
 import { Op } from 'sequelize';
 
+import File from '../models/File';
 import User from '../models/User';
 import Appointment from '../models/Appointment';
 
@@ -26,6 +27,21 @@ class ScheduleController {
         },
       },
       order: ['date'],
+      attributes: ['id', 'date'],
+      include: [
+        {
+          model: User,
+          as: 'user',
+          attributes: ['id', 'name'],
+          include: [
+            {
+              model: File,
+              as: 'avatar',
+              attributes: ['id', 'path', 'url'],
+            },
+          ],
+        },
+      ],
     });
 
     return res.json(appointments);
