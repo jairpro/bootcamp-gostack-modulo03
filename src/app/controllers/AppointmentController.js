@@ -62,6 +62,16 @@ class AppointmentController {
     }
 
     /**
+     * Check if user is the same provider
+     */
+    // eslint-disable-next-line eqeqeq
+    if (req.userId == provider_id) {
+      return res
+        .status(401)
+        .json({ error: 'you cannot schedule with yourself as a provider' });
+    }
+
+    /**
      * Check for past dates
      */
     const hourStart = startOfHour(parseISO(date));
