@@ -5,3 +5,5 @@ tmp/uploads/*
 
 # exception to the rule
 !tmp/uploads/.gitkeep
+
+.env
