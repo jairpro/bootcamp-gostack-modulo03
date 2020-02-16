@@ -23,16 +23,7 @@ Projeto Node.js com:
 
     yarn sequelize db:migrate
     
-5 - Usando como modelo o arquivo **.env.example** criar na mesma pasta um arquivo **.env** e definir a série de **variáveis de ambiente** a seguir:
-
- Para usar nodemailer, mude os dados ficctícios conforme seu servidor de email:
- 
-    MAIL_HOST = 'smtp.myhost.com'
-    MAIL_PORT = 0
-    MAIL_SECURE = false (ou true)
-    MAIL_USER = 'myuser'
-    MAIL_PASS = 'mypassword'
-    MAIL_FROM = 'myname <mymail@domain.com>'
+5 - Usando como modelo o arquivo **.env.example** criar na mesma pasta um arquivo **.env** e definir as **variáveis de ambiente**;
 
 6 - Para executar a aplicação utilize:
 
@@ -42,11 +33,3 @@ Projeto Node.js com:
 
     yarn dev:debug
   
-### Observações
-A porta para essa aplicação é 3337, ela pode ser redefinida no arquivo:
-
-    src/server.js
-
-  Alterar a porta aqui:
-
-    app.listen(3337);
