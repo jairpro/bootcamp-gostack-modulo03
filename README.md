@@ -6,7 +6,12 @@
 ## **Sobre**
 Projeto Node.js com:
 - Cadastro simples e autenticação de usuários;
-- Upload de imagem para avatar associado ao usuário; 
+- Upload de imagem para avatar associado ao usuário;
+- Agendamento do usuário com prestadores de serviço;
+- Listagens dos agendamentos para prestadores e usuários;
+- Notificações de agendamentos e listagens;
+- Cancelamento de agendamento pelo usuário com envio de e-mail para o prestador, com fila em segundo plano;
+- Tratamento e monitoramento de exceções;
 
 ## **Instalação** 
 1 - Clonar esse repositório em seu computador;
