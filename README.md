@@ -1,7 +1,7 @@
 # Bootcamp Gostack - Modulo 3
 <img height="100px" src="https://repository-images.githubusercontent.com/240039692/27973e80-4dee-11ea-89d7-880bb9842074">
 
-### Continuando API do Gobarber
+### Continuando API do GoBarber
 
 ## **Sobre**
 Projeto Node.js com:
