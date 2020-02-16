@@ -15,7 +15,11 @@ Projeto Node.js com:
 
     yarn
     
-3 - Utilizar postgres, mongo e redis com Docker, criar os bancos de dados e usuários;
+3 - Utilizar Postgres, MongoDB e Redis com Docker, criando os respectivos bancos de dados e usuários. Usar as imagens:
+
+     postgres
+     mongo
+     redis:alpine
 
 4 - Usando como modelo o arquivo `env.example` criar na mesma pasta um arquivo `.env` e definir as **variáveis de ambiente**;
   
