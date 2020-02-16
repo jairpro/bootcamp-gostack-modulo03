@@ -15,16 +15,14 @@ Projeto Node.js com:
 
     yarn
     
-3 - Utilizar Postgres com Docker, criar o banco de dados e o usuário e configurar o esquema de conexão no arquivo:
+3 - Utilizar postgres, mongo e redis com Docker, criar os bancos de dados e usuários;
 
-    src/config/database.js
-    
-4 - Aplicar as migrations para o banco de dados pelo comando no terminal da aplicação:
+4 - Usando como modelo o arquivo `env.example` criar na mesma pasta um arquivo `.env` e definir as **variáveis de ambiente**;
+  
+5 - Aplicar as migrations para o banco de dados pelo comando no terminal da aplicação:
 
     yarn sequelize db:migrate
     
-5 - Usando como modelo o arquivo **.env.example** criar na mesma pasta um arquivo **.env** e definir as **variáveis de ambiente**;
-
 6 - Para executar a aplicação utilize:
 
     yarn dev
